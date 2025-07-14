@@ -2,7 +2,6 @@ import { useState } from 'react'
 import ProductCard from '../components/ProductCard'
 import LoginModal from '../components/LoginModal'
 import ChatPopup from '../components/ChatPopup'
-import '../styles/globals.css'
 
 export default function Home() {
   const [showLogin, setShowLogin] = useState(false)
